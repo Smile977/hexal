@@ -1,0 +1,596 @@
+* {
+    font-size: 16px;
+    margin: 0 auto;       
+}
+
+body {
+    width: 1020px;
+}
+
+header {
+    background: #2e2e2e;
+    width: 1020px;
+    height: 63px;
+    line-height: 69px;
+    position: relative;
+}
+
+h1 {
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    color: #2e2e2e;
+}
+header div {
+	text-align: center;
+}
+.logo {
+	width: 65px;
+	height: 56px;
+	background-image: url(assets/icon-logo.png);
+	position: absolute;
+	z-index: 10;	
+	margin-top: 125px;
+	margin-left: 58px;
+}
+.podlogo {
+    width: 180px;
+    height: 206px;
+    background-image: url(assets/podlogo.png);
+    position: absolute;
+    z-index: 5;
+    margin-left: 419px;
+    margin-top: -118px;
+}
+
+.t1 { 
+    color: aliceblue;
+    margin-top: -4px;
+    margin-left: 10px;
+    position: absolute;
+}
+.t2 {    
+    color: aliceblue;
+    margin-top: -4px;
+    margin-left: -15px;
+    position: absolute;  
+}
+.menu {
+    padding: 0;
+    position: relative;
+    z-index: 10;
+}
+nav .item {
+    display: block;
+    float: left;
+    width: 55px;
+    height: 8px;
+    font-size: 8px;
+    color: #fff;
+    padding: 0;
+}
+
+nav .item-1 {
+    margin-left: 326px;
+    width: 55px;
+    height: 8px;
+}
+nav .item-2 {
+    margin-left: 25px;
+    width: 54px;
+    height: 8px;
+}
+nav .item-3 {
+    margin-left: 119px;
+    width: 55px;
+    height: 8px;
+}
+nav .item-4 {
+    margin-left: -4px;
+    width: 70px;
+    height: 8px;
+}
+.menu li a {
+    color: #fff;
+    font-size: 10px;
+    text-decoration: none;
+}
+.menu li a:hover {
+    color: #2fa68d;
+}
+.line {
+	margin-top: 74px;
+	position: absolute;
+}
+.line-1 {
+	width: 410px;
+	height: 1px;
+	margin-left: 30px;
+	float: left;
+	background: #e4e9eb;
+	
+}
+.line-2 {
+	width: 410px;
+	height: 1px;
+	margin-left: 135px;
+	float: left;
+	background: #e4e9eb;
+}
+/*==============================
+						Main
+===============================*/
+
+.article {
+    font-size: 2em;
+}
+
+.article .subtitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color: red;
+    background: rgb(222, 223, 222);
+}
+
+.image {
+    width: 200px;
+    position: absolute;
+}
+
+.hexagon-container {
+	height: 640px;
+	width: 1020px;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.hexagon {
+    width: 178px;
+    height: 209px;
+    margin: 9px;
+    transform: rotate(120deg);
+    overflow: hidden; /*обрезаем не вложенне в блок элементы*/
+    visibility: hidden; /*делаем элемент невидемым*/
+    display: inline-block;
+    transition: trnform 1s ease-in;
+}
+
+.cen {
+	width: 1020px;
+	height: 209px;
+	margin-top: -65px;
+}
+.bot {
+	width: 1020px;
+	height: 209px;
+	margin-top: -40px;
+}
+
+.hex-layer-101, .hex-layer-102, .hex-layer-103, .hex-layer-104, .hex-layer-105, .hex-layer-106, .hex-layer-107, .hex-layer-108, .hex-layer-109, .hex-layer-110, .hex-layer-111, .hex-layer-112, .hex-layer-113{
+    width: 100%;
+    height: 100%;
+    transform: rotate(120deg);
+    overflow: hidden; /*обрезаем не вложенне в блок элементы*/
+    visibility: hidden; /*делаем элемент невидемым*/
+}
+ 
+.hex-layer-201 {
+    width: 100%;
+    height: 100%;
+    background: #ccc3;
+    transform: rotate(120deg);
+    overflow: hidden; /*обрезаем не вложенне в блок элементы*/
+    visibility: visible; /*делаем элемент видимым*/
+    background-image: url('assets/1.png');
+    background-repeat: no-repeat;
+		background-position: 50%;
+}
+.hex-layer-202 {
+    width: 100%;
+    height: 100%;
+    background: #ccc3;
+    transform: rotate(120deg);
+    overflow: hidden; /*обрезаем не вложенне в блок элементы*/
+    visibility: visible; /*делаем элемент видимым*/
+    background-image: url('assets/2.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.hex-layer-203 {
+    width: 100%;
+    height: 100%;
+    background: #ccc3;
+    transform: rotate(120deg);
+    overflow: hidden; /*обрезаем не вложенне в блок элементы*/
+    visibility: visible; /*делаем элемент видимым*/
+    background-image: url('assets/3.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.hex-layer-204 {
+    width: 100%;
+    height: 100%;
+    background: #ccc3;
+    transform: rotate(120deg);
+    overflow: hidden; /*обрезаем не вложенне в блок элементы*/
+    visibility: visible; /*делаем элемент видимым*/
+    background-image: url('assets/4.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.hex-layer-205 {
+    width: 100%;
+    height: 100%;
+    background: #ccc3;
+    transform: rotate(120deg);
+    overflow: hidden; /*обрезаем не вложенне в блок элементы*/
+    visibility: visible; /*делаем элемент видимым*/
+    background-image: url('assets/5.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.hex-layer-206 {
+    width: 100%;
+    height: 100%;
+    background: #ccc3;
+    transform: rotate(120deg);
+    overflow: hidden; /*обрезаем не вложенне в блок элементы*/
+    visibility: visible; /*делаем элемент видимым*/
+    background-image: url('assets/6.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.hex-layer-207 {
+    width: 100%;
+    height: 100%;
+    background: #ccc3;
+    transform: rotate(120deg);
+    overflow: hidden; /*обрезаем не вложенне в блок элементы*/
+    visibility: visible; /*делаем элемент видимым*/
+    background-image: url('assets/7.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.hex-layer-208 {
+    width: 100%;
+    height: 100%;
+    background: #ccc3;
+    transform: rotate(120deg);
+    overflow: hidden; /*обрезаем не вложенне в блок элементы*/
+    visibility: visible; /*делаем элемент видимым*/
+    background-image: url('assets/8.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.hex-layer-209 {
+    width: 100%;
+    height: 100%;
+    background: #ccc3;
+    transform: rotate(120deg);
+    overflow: hidden; /*обрезаем не вложенне в блок элементы*/
+    visibility: visible; /*делаем элемент видимым*/
+    background-image: url('assets/9.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.hex-layer-210 {
+    width: 100%;
+    height: 100%;
+    background: #ccc3;
+    transform: rotate(120deg);
+    overflow: hidden; /*обрезаем не вложенне в блок элементы*/
+    visibility: visible; /*делаем элемент видимым*/
+    background-image: url('assets/10.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.hex-layer-211 {
+    width: 100%;
+    height: 100%;
+    background: #ccc3;
+    transform: rotate(120deg);
+    overflow: hidden; /*обрезаем не вложенне в блок элементы*/
+    visibility: visible; /*делаем элемент видимым*/
+    background-image: url('assets/11.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.hex-layer-212 {
+    width: 100%;
+    height: 100%;
+    background: #ccc3;
+    transform: rotate(120deg);
+    overflow: hidden; /*обрезаем не вложенне в блок элементы*/
+    visibility: visible; /*делаем элемент видимым*/
+    background-image: url('assets/12.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.hex-layer-213 {
+    width: 100%;
+    height: 100%;
+    background: #ccc3;
+    transform: rotate(120deg);
+    overflow: hidden; /*обрезаем не вложенне в блок элементы*/
+    visibility: visible; /*делаем элемент видимым*/
+    background-image: url('assets/13.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.hexagon:hover {
+    transform: rotate(-280deg);
+    transition: trnform 2s ease-in;
+}
+
+/*==============================
+			Main 2 sectia
+===============================*/
+.info {
+	width: 1020px;
+	height: 340px;
+	background: #2eb398;
+	margin: 0 auto;
+}
+
+.article {
+	width: 820px;
+	height: 316px;
+}
+
+.imege-info {
+	width: 220px;
+	height: 316px;
+    float: left;    
+    margin-top: 10px;    
+    text-align: center;
+    border-left: 1px solid  #219d84;
+}
+
+.hexagon2 {
+    margin-top: 57px;
+    width: 178px;
+    height: 209px;
+    transform: rotate(120deg);
+    overflow: hidden; /*обрезаем не вложенне в блок элементы*/
+    visibility: hidden; /*делаем элемент невидемым*/
+    display: inline-block;
+    transition: trnform 1s ease-in;
+}
+
+
+.hex-layer-115 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(120deg);
+    overflow: hidden; /*обрезаем не вложенне в блок элементы*/
+    visibility: hidden; /*делаем элемент невидемым*/
+}
+
+.hex-layer-215 {
+    width: 100%;
+    height: 100%;
+    background: #ccc3;
+    transform: rotate(120deg);
+    overflow: hidden; /*обрезаем не вложенне в блок элементы*/
+    visibility: visible; /*делаем элемент видимым*/
+    background-image: url('assets/15.png');
+    background-repeat: no-repeat;
+		background-position: 50%;
+}
+
+/*
+    блок текста
+*/
+
+
+.text-info {
+	width: 598px;
+	height: 316px;
+	float: left;
+    display: block;       
+    margin-top: 10px;  
+    border-right: 1px solid  #219d84;  
+}
+
+.text-info h3 {
+	font-size: 30px;
+    color: #d7fcf5;
+    margin-top: 52px;
+}
+.text-info h4 {
+	font-size: 18px;
+	color: #248f79;
+}
+.text-info p {
+    font-size: 12px;
+    color: #a1e1d3;
+    margin-top: 12px;
+    line-height: 21px;
+}
+
+.icons {
+    width: 150px;
+    height: 24px;
+    margin: 38px 0 0 435px;
+}
+
+.icons a {
+    width: 24px;
+    height: 24px;
+    float: left;
+}
+
+.icons a:hover {
+    border: 1px solid #fff;
+}
+
+.ic-1 {
+    background-image: url('assets/f.png');
+}
+.ic-2 {
+    background-image: url('assets/tw.png');
+}
+.ic-3 {
+    background-image: url('assets/g+.png');
+}
+.ic-4 {
+    background-image: url('assets/pi.png');
+}
+.ic-5 {
+    background-image: url('assets/i.png');
+}
+.ic-6 {
+    background-image: url('assets/bl.png');
+}
+
+/*===========================================
+        Forma
+============================================*/
+
+.info-forma {
+    height: 564px;
+    background: #323232;
+    padding-top: 10px;
+}
+
+.line-info {
+    width: 960px;
+    height: 540px;
+    margin: 0 auto;
+    
+    border-top: 1px solid #2b2b2b;
+    border-bottom: 1px solid #2b2b2b;
+}
+
+.form-block {
+    width: 820px;
+    height: 500px;
+}
+
+.left-form {
+    width: 590px;
+    height: 500px;
+    float: left;
+    padding-left: 20px;    
+    padding-top: 54px;    
+}
+
+.left-form h4 {
+    font-size: 28px;
+    color: #e0e0e0;
+}
+
+.left-form p {
+    font-size: 18px;
+    color: #bebebe;
+    margin-bottom: 14px;
+}
+
+.input-text {
+    width: 565px;
+    height: 38px;
+    background: #454545;
+    margin-bottom: 15px;
+}
+
+#text-area {
+    width: 564px;
+    height: 145px;
+    background: #454545;
+    border: none;
+    resize:none;
+    padding-left: 15px;
+    font-size: 11px;
+    line-height: 37px;
+    color: #bebebe;
+    margin-bottom: 14px;
+}
+
+form input {
+    outline:none;
+    border: none;
+    padding-left: 15px;
+    font-size: 11px;
+    color: #bebebe;
+}
+
+button {
+    width: 90px;
+    height: 37px;
+    background: #2eb398;
+    margin-left: 490px;
+    border: none;
+    color: #b4eadf;
+}
+
+.right-form {
+    height: 500px;
+    width: 190px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+
+.right-form p {
+    margin-top: 120px;
+    font-size: 14px;
+    color: #e0e0e0;
+    line-height: 21px;
+    margin-bottom: 42px;
+}
+
+.contact {
+    width: 190px;
+    height: 100px;
+    line-height: 15px;
+}
+
+.tr {
+    width: 13px;
+    height: 13px;
+    float: left;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+.td {
+    margin-left: 10px;
+    width: 160px;
+    height: 13px;
+    float: left;
+    margin-bottom: 7px;
+    font-size: 14px;
+    color: #e0e0e0;
+    text-decoration: none;
+}
+.td a {
+    font-size: 14px;
+    color: #e0e0e0;
+    text-decoration: none; 
+}
+
+.left-1 {
+    background-image: url(assets/icon1.png);
+    background-repeat: no-repeat;
+}
+.left-2 {
+    background-image: url(assets/icon2.png);
+    background-repeat: no-repeat;
+}
+.left-3 {
+    background-image: url(assets/icon3.png);
+    background-repeat: no-repeat;
+}
+
+footer {
+    height: 43px;
+    background: #222222;
+    padding-left: 39px;
+    padding-top: 16px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #3d3d3d;
+}
